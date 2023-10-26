@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/static/addEvent.css" />
+        <title>Add event</title>
+    </head>
+    <body>
+        <div class="form-wrapper">
+            <h2 class="form-title">Adauga eveniment</h2>
+            <form action="">
+                <label for="name">Nume: </label><br />
+                <input class="textbox" type="text" id="name" required /><br />
+
+                <label for="date">Data: </label><br />
+                <input class="textbox" type="date" id="date" required /><br />
+                <label for="time">Ora: </label><br />
+                <input class="textbox" type="time" id="time" required /><br />
+                <label for="city">Oras: </label><br />
+                <input class="textbox" type="text" id="city" required /><br />
+                <label for="description">Descrierea evenimentului: </label
+                ><br />
+                <textarea type="text" id="description" required>
+Care este scopul evenimentului tau?
+                    </textarea
+                ><br />
+                <label for="type ">Tipul evenimentului: </label><br />
+                <select name="type" id="type" required>
+                    <option value="1">Accesibil tuturor</option>
+                    <option value="2">
+                        Accesibil celor ce au aderat organizatiei
+                    </option>
+                    <option value="3">
+                        Accesibil membrilor si celor ce vor cere permisiunea
+                    </option></select
+                ><br />
+
+                <div class="feature-container">
+                    <input type="checkbox" id="feature" />
+                    <label for="feature">Doresc sa fiu promovat</label>
+                </div>
+
+                <div class="button-container">
+                    <input class="submit-button" type="submit" />
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

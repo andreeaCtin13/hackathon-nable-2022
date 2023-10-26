@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/static/addEvent.css" />
+        <link rel="stylesheet" href="/static/donationPage.css" />
+        <title>Donatie</title>
+        <link rel="stylesheet" href="/static/first-section.css">
+        <link rel="stylesheet" href="/static/slider.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <aside>
+              <ul class="lista">
+                <li>
+                    <a 
+                    href="http://localhost:8080/profile" >
+                    <img class="user" src="/assets/homepage/userTest.jpeg" alt="" />
+                </a>
+                </li>
+                <li><a href="http://localhost:8080/index">Home</a></li>
+                <li><a href="http://localhost:8080/organizatii">Organizații</a></li>
+                <li><a href="http://localhost:8080/donationPage">Donează</a></li>
+              </ul>
+            </aside>
+            <main>
+              <div class="wrapper_inner">
+        <div class="form-wrapper">
+            <h2 class="form-title">Formular donatii</h2>
+            <form action="">
+                <label for="name">Nume: </label><br />
+                <input class="textbox" type="text" id="name" required />
+                <div class="anonymity-container">
+                    <input type="checkbox" id="anonymous" />
+                    <label for="anonymous"
+                        >Doresc ca donatia sa fie anonima</label
+                    >
+                </div>
+
+                <label for="sum">Suma: </label><br />
+                <input class="textbox" type="text" id="sum" required /><br />
+                <label for="account">Contul organizatiei: </label><br />
+                <input
+                    class="textbox"
+                    type="text"
+                    id="account"
+                    required
+                /><br />
+
+                <div class="button-container">
+                    <input
+                        class="submit-button"
+                        type="submit"
+                        value="Doneaza"
+                    />
+                </div>
+            </form>
+        </div>
+        </div>
+    </main>
+    </body>
+</html>

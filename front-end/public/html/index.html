@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="/static/slider.css" />
+    <link rel="stylesheet" href="/static/first-section.css" />
+    <link rel="stylesheet" href="/static/cards.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <aside>
+        <ul class="lista">
+          <li>
+            <a 
+            href="http://localhost:8080/profile" >
+            <img class="user" src="/assets/profile/userTest.jpeg" alt="" />
+        </a>
+        </li>
+          <li><a href="http://localhost:8080/index">Home</a></li>
+          <li><a href="http://localhost:8080/organizatii">Organizații</a></li>
+          <li><a href="http://localhost:8080/donatii">Donează</a></li>
+        </ul>
+      </aside>
+      <main>
+        <div class="wrapper_inner">
+          <div class="container">
+            <div data-am-fadeshow="next-prev-navigation">
+              <!-- Radio -->
+              <input type="radio" name="css-fadeshow" id="slide-1" />
+              <input type="radio" name="css-fadeshow" id="slide-2" />
+              <input type="radio" name="css-fadeshow" id="slide-3" />
+
+              <!-- Slides -->
+              <div class="fs-slides">
+                <div
+                  class="fs-slide"
+                  style="background-image: url(../assets/homepage/3.jpg)"
+                >
+                  <!-- Add content to images (sample) -->
+                  <div
+                    style="
+                      position: absolute;
+                      top: 50%;
+                      left: 50%;
+                      transform: translate(-50%, -50%);
+                      color: white;
+                      font-family: sans-serif;
+                      text-align: center;
+                      text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+                    "
+                  >
+                    <h1
+                      style="
+                        margin-top: 0;
+                        margin-bottom: 0.8vw;
+                        font-size: 5vw;
+                        font-weight: bold;
+                        background-color: trasparent;
+                      "
+                    >
+                    Eveniment Premium 1
+                    </h1>
+                    <p
+                      style="
+                        font-size: 2vw;
+                        font-weight: 100;
+                        margin-top: 0;
+                        background-color: trasparent;
+                      "
+                    >
+                      Ora Locatia
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="fs-slide"
+                  style="background-image: url(../assets/homepage/2.jpg)"
+                >
+                  <!-- Add content to images (sample) -->
+                  <div
+                    style="
+                      position: absolute;
+                      top: 50%;
+                      left: 50%;
+                      transform: translate(-50%, -50%);
+                      color: white;
+                      font-family: sans-serif;
+                      text-align: center;
+                      text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+                      background-color: trasparent;
+                    "
+                  >
+                    <h1
+                      style="
+                        margin-top: 0;
+                        margin-bottom: 0.8vw;
+                        font-size: 5vw;
+                        font-weight: bold;
+                        background-color: trasparent;
+                      "
+                    >
+                      Eveniment 2
+                    </h1>
+                    <p
+                      style="
+                        font-size: 2vw;
+                        font-weight: 100;
+                        margin-top: 0;
+                        background-color: trasparent;
+                      "
+                    >
+                    Ora Locatia                    </p>
+                  </div>
+                </div>
+                <div
+                  class="fs-slide"
+                  style="background-image: url(../assets/homepage/1.jpg)"
+                >
+                  <!-- Add content to images (sample) -->
+                  <div
+                    style="
+                      position: absolute;
+                      top: 50%;
+                      left: 50%;
+                      transform: translate(-50%, -50%);
+                      color: white;
+                      font-family: sans-serif;
+                      text-align: center;
+                      text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+                      background-color: trasparent;
+                    "
+                  >
+                    <div class="textImageSlider">
+                      <h1
+                        style="
+                          margin-top: 0;
+                          margin-bottom: 0.8vw;
+                          font-size: 5vw;
+                          font-weight: bold;
+                          background-color: trasparent;
+                        "
+                      >
+                        Eveniment 3
+                      </h1>
+                      <p
+                        style="
+                          font-size: 2vw;
+                          font-weight: 100;
+                          margin-top: 0;
+                          background-color: trasparent;
+                        "
+                      >
+                      Ora Locatia
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Quick Navigation -->
+              <div class="fs-quick-nav">
+                <label class="fs-quick-btn" for="slide-1"></label>
+                <label class="fs-quick-btn" for="slide-2"></label>
+                <label class="fs-quick-btn" for="slide-3"></label>
+              </div>
+
+              <!-- Prev Navigation -->
+              <div class="fs-prev-nav">
+                <label class="fs-prev-btn" for="slide-1"></label>
+                <label class="fs-prev-btn" for="slide-2"></label>
+                <label class="fs-prev-btn" for="slide-3"></label>
+              </div>
+
+              <!-- Next Navigation -->
+              <div class="fs-next-nav">
+                <label class="fs-next-btn" for="slide-1"></label>
+                <label class="fs-next-btn" for="slide-2"></label>
+                <label class="fs-next-btn" for="slide-3"></label>
+              </div>
+            </div>
+            <!-- cartonase -->
+            <div class="container-cards">
+              <div class="card">
+              <img
+              class="img"
+                src="/assets/homepage/events/12.png"
+              />
+              <div class="card-body">
+                <div class="card-text">
+                  <h3>Strangere de Fonduri</h3>
+                  <p>
+                    Constanta, ora 12:00                    
+                  </p>
+                </div>
+                <button>Participa</button>
+              </div>
+            </div>
+            <div class="card">
+              <img
+              class="img"
+                src="/assets/homepage/events/2.png"
+              />
+              <div class="card-body">
+                <div class="card-text">
+                  <h3>Protest</h3>
+                  <p>
+                    Bucuresti, ora 15:00
+                  </p>
+                </div>
+                <button>Participa</button>
+              </div>
+            </div>
+            <div class="card">
+              <img
+              class="img"
+                src="/assets/homepage/events/3.png"
+              />
+              <div class="card-body">
+                <div class="card-text">
+                  <h3>Lorem ipsum</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+                <button>Participa</button>
+
+              </div>
+            </div>
+            <div class="card">
+              <img
+              class="img"
+                src="/assets/homepage/events/4.jpeg"
+              />
+              <div class="card-body">
+                <div class="card-text">
+                  <h3>Lorem ipsum</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+                <button>Participa</button>
+
+              </div>
+            </div>
+            <div class="card">
+              <img
+              class="img"
+                src="/assets/homepage/events/5.jpeg"
+              />
+              <div class="card-body">
+                <div class="card-text">
+                  <h3>Lorem ipsum</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+                <button>Participa</button>
+
+              </div>
+            </div>
+            <div class="card">
+              <img
+              class="img"
+                src="/assets/homepage/events/6.jpeg"
+              />
+              <div class="card-body">
+                <div class="card-text">
+                  <h3>Lorem ipsum</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+                <button>Participa</button>
+
+              </div>
+            </div>
+            <div class="card">
+              <img
+              class="img"
+                src="/assets/homepage/events/7.jpeg"
+              />
+              <div class="card-body">
+                <div class="card-text">
+                  <h3>Lorem ipsum</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+                <button>Participa</button>
+
+              </div>
+            </div>
+            <div class="card">
+              <img
+              class="img"
+                src="/assets/homepage/events/8.jpeg"
+              />
+              <div class="card-body">
+                <div class="card-text">
+                  <h3>Lorem ipsum</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+                <button>Participa</button>
+              </div>
+            </div>
+            <div class="card">
+              <img
+              class="img"
+                src="/assets/homepage/events/n.jpg"
+              />
+              <div class="card-body">
+                <div class="card-text">
+                  <h3>Lorem ipsum</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+                <button>Participa</button>
+
+              </div>
+            </div>
+            <div class="card">
+              <img
+              class="img"
+                src="/assets/homepage/events/14.jpeg"
+              />
+              <div class="card-body">
+                <div class="card-text">
+                  <h3>Lorem ipsum</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+                <button>Participa</button>
+
+              </div>
+            </div>
+            <div class="card">
+              <img
+              class="img"
+                src="/assets/homepage/events/11.jpeg"
+              />
+              <div class="card-body">
+                <div class="card-text">
+                  <h3>Lorem ipsum</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+                <button>Participa</button>
+
+              </div>
+            </div> 
+            <div class="card">
+              <img
+              class="img"
+                src="/assets/homepage/events/13.jpeg"
+              />
+              <div class="card-body">
+                <div class="card-text">
+                  <h3>Lorem ipsum</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+                <button>Participa</button>
+
+              </div>
+            </div>   
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

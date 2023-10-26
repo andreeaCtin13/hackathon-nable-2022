@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/static/registerOrg.css" />
+        <title>Inregistreaza organizatie</title>
+    </head>
+    <body>
+        <div class="form-wrapper">
+            <h2 class="form-title">Inregistreaza organizatie</h2>
+            <form action="">
+                <label for="name">Numele organizatiei: </label><br />
+                <input class="textbox" type="text" id="name" required /><br />
+                <label for="email">Email: </label><br />
+                <input class="textbox" type="email" id="email" required /><br />
+                <label for="password">Parola: </label><br />
+                <input
+                    class="textbox"
+                    type="password"
+                    id="password"
+                    required
+                /><br />
+                <label for="confirmPassword">Confirmare parola: </label><br />
+                <input
+                    class="textbox"
+                    type="password"
+                    id="confirmPassword"
+                    required
+                /><br />
+                <label for="phone">Numar de telefon: </label><br />
+                <input
+                    class="textbox"
+                    type="tel"
+                    id="phone"
+                    pattern="[0-9]{10}"
+                    required
+                /><br />
+                <label for="city">Oras sediu principal: </label><br />
+                <input class="textbox" type="text" id="city" required /><br />
+
+                <label for="site">Site-ul organizatiei: </label><br />
+                <input class="textbox" type="url" id="site" required /><br />
+                <label for="certificate">Certificat organizatie: </label><br />
+                <input
+                    class="fileInput"
+                    type="file"
+                    id="certificate"
+                    required
+                /><br />
+
+                <div class="terms-container">
+                    <label for="terms">Accept termenii si conditiile </label>
+                    <input type="checkbox" id="terms" required /><br />
+                </div>
+                <div class="button-container">
+                    <a href="http://localhost:8080/index">    
+                        <span class="submit-button" type="submit" value="Register">
+                            Register
+                            </span>
+                    </a>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

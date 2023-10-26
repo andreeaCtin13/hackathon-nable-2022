@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="/static/profile-info.css" />
+    <link rel="stylesheet" href="/static/first-section.css">
+    <link rel="stylesheet" href="/static/slider.css">
+  </head>
+  <body>
+    <div>
+      <div class="wrapper">
+        <aside>
+          <ul class="lista">
+            <li>
+              <a 
+              href="/static/profile.html" >
+              <img class="user" src="/assets/homepage/userTest.jpeg" alt="" />
+          </a>
+          </li>
+            <li><a href="http://localhost:8080/index">Home</a></li>
+            <li><a href="http://localhost:8080/organizatii">Organizații</a></li>
+            <li><a href="http://localhost:8080/donationPage">Donează</a></li>
+          </ul>
+        </aside>
+        <main>
+          <div class="wrapper_inner">
+        	<div class="container-profile">
+            <div class="profile">
+              <div class="profile-pic profile-image">
+              <label class="-label" for="file">
+                <span class="glyphicon glyphicon-camera"></span>
+                <span>Change Image</span>
+              </label>
+            <input id="file" type="file" onchange="loadFile(event)" />
+            <img
+              src="https://cdn.pixabay.com/photo/2017/08/06/21/01/louvre-2596278_960_720.jpg"
+              id="output"
+              width="200"
+            />
+          </div>
+
+          <div class="profile-user-settings">
+            <h1 class="profile-user-name">User Name</h1>
+            
+              <i class="fas fa-cog" aria-hidden="true"></i>
+            </button>
+          </div>
+
+
+          <div class="profile-bio">
+            <div class="profile-fx">
+                <div>E-mail: <span>mail-bd</span></div>
+                <div>Parolă: <span>password-bd</span></div>
+              <div>Telefon: <span>telefon-bd</span></div>
+            </div>
+            <div class="profile-fx">
+                <div>
+                    Oraș:
+                    <span>oras-bd</span>
+                  </div>
+                  <div>
+                    Data nașterii:
+                    <span>data nașterii - bd</span>
+                  </div>
+            </div>
+          </div>
+          <div class="btns">
+            <button id="organizatii"  class="btn">Oranizatii</button>
+            <button id="istoric"  class="btn">Istoric</button>
+        
+        </div>
+        </div>
+        
+        <!-- End of profile section -->
+      </div>
+  
+      <!-- End of container -->
+    </div>
+    <div id="container-cards-organizatii">
+        <div class="cartonas">
+            <img class="logo-organizatii" src="/assets/profile/Logo-Green-Report.png" alt="">
+            <div class="scris">
+                <p class="greenText">Green Report ONG</p>
+                <div>Oranizatia noastra se ocupa cu salvarea mediului si plantarea de copaci. Avem experienta de peste 7 ani si in cadrul organizatiei exista peste 900 de voluntari, dintre care 400 activi.</div>
+    
+            </div>
+        </div>
+        <div class="cartonas">
+            <img  class="logo-organizatii" src="/assets/profile/Precious-Plastic-Logo.png" alt="">
+            <div class="scris"> 
+                <p class="greenText">Precious Plastic</p>
+                <div>Organizatia noastra se ocupa cu strangerea deseurilor si utilizarea plasticului intr-un mod inteligent. Avem experienta de peste 7 ani si in cadrul organizatiei exista peste 900 de voluntari, dintre care 400 activi.</div>
+    
+            </div>
+        </div>
+    </div>
+    <div id="container-cards-istoric">
+        <div class="cartonas">
+            <img class="events-img" src="/assets/profile/events1.jpeg" alt="">
+            <div class="scris">
+                <p class="greenText">Strangere de Fonduri Case Verzi</p>
+                <div>In Constanta, Stramgerea de Fonduri pentru Case Verzi este evenimentul in care au fost stransi bani pentru implementarea panourilor seolare pe 80% din casele aferente unui sat din Moldova.</div>
+    
+            </div>
+        </div>
+        <div class="cartonas">
+            <img  class="events-img" src="/assets/profile/events2.jpeg" alt="">
+            <div class="scris"> 
+                <p class="greenText">Colectare de Deseuri in Colentina</p>
+                <div>In cadrul Colectarii de Deseuri din Colentina au fost curatate zonele principale si au fost prezenti in total peste 700 de oameni.</div>
+    
+            </div>
+        </div>
+    </div>
+
+         
+    </main>
+  </body>
+  <script src="/static/profile.js"></script>
+</html>
